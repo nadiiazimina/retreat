@@ -1,0 +1,92 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    background-image: url("img/bg.jpg");
+    background-repeat: repeat-y;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans";
+    
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+footer {
+    background-color: #2d4823;
+    margin: 0;
+    padding: 25px;
+    position: absolute;
+    margin-top: 10px;
+    
+}
+
+.tree {
+    background-color: #4f6a13;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: -100px;
+  
+}
+
+@font-face {
+    font-family: "FromtheWoods";
+    src: url("fonts/FromtheWoods-Regular.woff2");
+}
+
+h1 {
+    font-family: "FromtheWoods", sans-serif;
+    font-size: 7rem;
+
+}
+
+a {
+    color: #D3D3D3;
+}
+
+h2, h3 {
+    font-weight: bold;
+}
+
+header{
+    padding: 15px;
+    margin: 30px;
+}
+
+.move {
+    position: relative;
+    left: 350px;
+}
+
+main {
+    margin: auto;
+    max-width: 700px;
+    margin-bottom: 150px;
+
+}
+
+header p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+footer p {
+    max-width: 60%;
+    margin: 0 auto;
+} 
+
